@@ -1,0 +1,38 @@
+{
+  "name": "Lissa",
+  "incomeBiWeekly": 3453.87,
+  "creditCardLimit": 883.46,
+  "checkingLimit": 2570.4,
+  "bills": [
+    {
+      "date": 03,
+      "amount": 145,
+      "purpose": "nfcu credit card"
+    },
+    {
+      "date": 03,
+      "amount": 500,
+      "purpose": "credit card debt"
+    },
+    {
+      "date": 12,
+      "amount": 298.86,
+      "purpose": "student loan"
+    },
+    {
+      "date": 15,
+      "amount": 1507,
+      "purpose": "rent + spotify"
+    },
+    {
+      "date": 15,
+      "amount": 50.88,
+      "purpose": "internet"
+    },
+    {
+      "date": 18,
+      "amount": 68.66,
+      "purpose": "phone"
+    }
+  ]
+}
