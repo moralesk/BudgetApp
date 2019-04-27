@@ -1,8 +1,8 @@
 {
   "name": "Lissa",
   "incomeBiWeekly": 3453.87,
-  "creditCardLimit": 4456.87,
-  "checkingLimit": 2450.86,
+  "creditCardLimit": 4388.21,
+  "checkingLimit": 2519.52,
   "bills": [
     {
       "date": 03,
@@ -38,7 +38,7 @@
       "date": 18,
       "amount": 68.66,
       "purpose": "phone",
-      "deductFromChecking": false
+      "deductFromChecking": true
     }
   ]
 }
