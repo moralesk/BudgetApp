@@ -15,6 +15,10 @@
 		C9143D4022750FE80091E60F /* BudgetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9143D3F22750FE80091E60F /* BudgetAppTests.swift */; };
 		C9143D4B2275101E0091E60F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9143D4A2275101E0091E60F /* HomeViewController.swift */; };
 		C9B26EA52275128E009A4784 /* Budget.json in Resources */ = {isa = PBXBuildFile; fileRef = C9B26EA42275128E009A4784 /* Budget.json */; };
+		C9B26EA722751354009A4784 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B26EA622751354009A4784 /* HomeInteractor.swift */; };
+		C9B26EA922751445009A4784 /* GreetingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B26EA822751445009A4784 /* GreetingTableViewCell.swift */; };
+		C9B26EAB227521B4009A4784 /* UserBudgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B26EAA227521B4009A4784 /* UserBudgetData.swift */; };
+		C9B26EAD2275F353009A4784 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B26EAC2275F353009A4784 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		C9143D4122750FE80091E60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9143D4A2275101E0091E60F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C9B26EA42275128E009A4784 /* Budget.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Budget.json; sourceTree = "<group>"; };
+		C9B26EA622751354009A4784 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C9B26EA822751445009A4784 /* GreetingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingTableViewCell.swift; sourceTree = "<group>"; };
+		C9B26EAA227521B4009A4784 /* UserBudgetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBudgetData.swift; sourceTree = "<group>"; };
+		C9B26EAC2275F353009A4784 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,10 @@
 				C9143D3322750FE70091E60F /* LaunchScreen.storyboard */,
 				C9143D3622750FE70091E60F /* Info.plist */,
 				C9143D4A2275101E0091E60F /* HomeViewController.swift */,
+				C9B26EA622751354009A4784 /* HomeInteractor.swift */,
+				C9B26EA822751445009A4784 /* GreetingTableViewCell.swift */,
+				C9B26EAA227521B4009A4784 /* UserBudgetData.swift */,
+				C9B26EAC2275F353009A4784 /* HomeViewModel.swift */,
 			);
 			path = BudgetApp;
 			sourceTree = "<group>";
@@ -206,7 +218,11 @@
 			files = (
 				C9143D2D22750FE60091E60F /* ViewController.swift in Sources */,
 				C9143D2B22750FE60091E60F /* AppDelegate.swift in Sources */,
+				C9B26EAD2275F353009A4784 /* HomeViewModel.swift in Sources */,
 				C9143D4B2275101E0091E60F /* HomeViewController.swift in Sources */,
+				C9B26EAB227521B4009A4784 /* UserBudgetData.swift in Sources */,
+				C9B26EA722751354009A4784 /* HomeInteractor.swift in Sources */,
+				C9B26EA922751445009A4784 /* GreetingTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

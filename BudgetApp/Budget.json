@@ -5,13 +5,13 @@
   "checkingLimit": 2519.52,
   "bills": [
     {
-      "date": 03,
+      "date": 3,
       "amount": 145,
       "purpose": "nfcu credit card minimum payment",
       "deductFromChecking": true
     },
     {
-      "date": 03,
+      "date": 3,
       "amount": 500,
       "purpose": "credit card debt",
       "deductFromChecking": true
