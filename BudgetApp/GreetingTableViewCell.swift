@@ -26,8 +26,8 @@ class GreetingTableViewCell: UITableViewCell {
     private let dateLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .right
-        label.numberOfLines = 1
-        label.lineBreakMode = .byTruncatingTail
+        label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
         label.textColor = .purple
         label.font = UIFont.systemFont(ofSize: 17.0, weight: .bold)
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -36,6 +36,7 @@ class GreetingTableViewCell: UITableViewCell {
     
     func setUser(name: String?) {
         self.backgroundColor = .clear
+        self.isUserInteractionEnabled = false
         let greetingPredicate = name != nil ? ", \(name ?? "")!" : "!"
         greetingLabel.text = "Hello\(greetingPredicate)"
         let date = Date()

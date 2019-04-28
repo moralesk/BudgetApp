@@ -44,6 +44,7 @@ extension HomeViewController: UITableViewDataSource {
             return cell
         case 1:
             let cell = UITableViewCell()
+            cell.selectionStyle = .none
             if let limit = userBudgetData?.creditCardLimit {
                 cell.textLabel?.textAlignment = .center
                 cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 20)
@@ -52,6 +53,7 @@ extension HomeViewController: UITableViewDataSource {
             return cell
         case 2:
             let cell = UITableViewCell()
+            cell.selectionStyle = .none
             if let bills = userBudgetData?.bills {
                 cell.textLabel?.textAlignment = .center
                 cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 20)
@@ -66,9 +68,9 @@ extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 1:
-            return "Do Not Exceed This Credit Card Amount Today"
+            return "Maximum Credit Card Amount Today"
         case 2:
-            return "Maintain This Debit Card Amount Today"
+            return "Minimum Debit Card Amount Today"
         default:
             return nil
         }
